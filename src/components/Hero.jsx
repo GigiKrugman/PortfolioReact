@@ -15,9 +15,10 @@ export default function Hero() {
         </h2>
         <p className="text-[#a9afbf] py-4 max-w-[700px]">
           I’m a passionate developer specializing in Front End Development ,
-          Mobile Development and Full Stack. Currently, I’m focused on building
-          responsive applications and i'm learning and exploring as much as
-          possible best practises and technologies.
+          also i'm enjoying learning the Backend and Mobile side as well.
+          Currently, I’m focused on building responsive applications and i'm
+          learning and exploring as much as possible best practises and new
+          technologies.
         </p>
         <div>
           <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
