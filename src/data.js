@@ -1,6 +1,7 @@
 import Image1 from "../src/assets/Project-QualityLife.png";
 import Image2 from "../src/assets/Project-VegCookbook.png";
 import Image3 from "../src/assets/Project-GlobalWarming.png";
+import Image4 from "../src/assets/Typescript-ReactQuiz.png";
 
 export const data = [
   {
@@ -29,8 +30,8 @@ export const data = [
   {
     id: 4,
     name: "Typescript Application",
-    image: Image,
-    github: "",
-    live: "",
+    image: Image4,
+    github: "https://github.com/GigiKrugman/GlobalWarmingQuizTS",
+    live: "https://global-warming-quiz-typescript.netlify.app/",
   },
 ];

@@ -5,7 +5,10 @@ export default function Projects() {
   const projects = data;
 
   return (
-    <div name="work" className="w-full md:h-screen text-gray-300 bg-[#0a192f]">
+    <div
+      name="work"
+      className="w-full md:h-screen text-gray-300 bg-[#0a192f] mb-40"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
@@ -20,7 +23,7 @@ export default function Projects() {
           {projects.map((item, index) => (
             <div
               key={index}
-              className="shadow-lg shadow-[#040c16] group container rounded-md flex flex-col justify-center items-center mx-auto content-div"
+              className="shadow-lg shadow-[#6091cd] group container rounded-md flex flex-col justify-center items-center mx-auto content-div transition-all duration-300 hover:scale-105"
             >
               <div
                 style={{
@@ -32,19 +35,19 @@ export default function Projects() {
                 className="w-full h-64 bg-cover bg-center rounded-t-md"
               ></div>
               {/* Hover effect */}
-              <div className="opacity-0 group-hover:opacity-100 bg-[#040c16] rounded-b-md p-4">
+              <div className="group-hover:bg-[#0a192f] rounded-b-md p-4">
                 <h3 className="text-2xl font-bold text-white">{item.name}</h3>
                 <p className="text-gray-300">{item.description}</p>
                 <div className="pt-4">
                   {/* eslint-disable-next-line */}
                   <a href={item.github} target="_blank">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-white hover:text-black transition-all duration-300">
                       GitHub
                     </button>
                   </a>
                   {/* eslint-disable-next-line */}
                   <a href={item.live} target="_blank">
-                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    <button className="text-center rounded-lg px-4 py-3 m-2 bg-black text-white font-bold text-lg hover:bg-white hover:text-black transition-all duration-300">
                       Website
                     </button>
                   </a>
